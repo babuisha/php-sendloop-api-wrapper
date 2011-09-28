@@ -1,6 +1,10 @@
 #summary One-sentence summary of this page.
 
 = How To Use Sendloop API Wrapper =
+
+We can use 'php', 'json' or 'xml' as a result type. For change this, use 3th parameter of class defination.
+
+
 {{{
 
 include('sendloopapi3.php');
