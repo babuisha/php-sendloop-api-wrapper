@@ -1,0 +1,15 @@
+# How To Use Sendloop API Wrapper #
+
+We can use 'php', 'json' or 'xml' as a result type. For change this, use 3th parameter of class defination.
+
+
+```
+
+include('sendloopapi3.php');
+
+$API = new SendloopAPI3('__YOUR_API3_KEY__','__SENDLOOP_SUBDOMAIN__','php');
+
+$API->run('campaign.getlist',array());
+
+print_r($API->Result);
+```
